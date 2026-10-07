@@ -162,6 +162,93 @@ rss:
       max_items: 100
       max_age_days: 1
 
+    # ── Tier-1 check per celebrity: name in headline, only first-group outlets ──
+    - id: "t1-megan-fox"
+      name: "Tier1: Megan Fox"
+      url: "https://news.google.com/rss/search?q=intitle%3A%22Megan+Fox%22+%28site%3Apeople.com+OR+site%3Avariety.com+OR+site%3Ahollywoodreporter.com+OR+site%3Adeadline.com+OR+site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abbc.com+OR+site%3Abbc.co.uk%29+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+      max_items: 50
+      max_age_days: 3
+    - id: "t1-taylor-swift"
+      name: "Tier1: Taylor Swift"
+      url: "https://news.google.com/rss/search?q=intitle%3A%22Taylor+Swift%22+%28site%3Apeople.com+OR+site%3Avariety.com+OR+site%3Ahollywoodreporter.com+OR+site%3Adeadline.com+OR+site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abbc.com+OR+site%3Abbc.co.uk%29+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+      max_items: 50
+      max_age_days: 3
+    - id: "t1-selena-gomez"
+      name: "Tier1: Selena Gomez"
+      url: "https://news.google.com/rss/search?q=intitle%3A%22Selena+Gomez%22+%28site%3Apeople.com+OR+site%3Avariety.com+OR+site%3Ahollywoodreporter.com+OR+site%3Adeadline.com+OR+site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abbc.com+OR+site%3Abbc.co.uk%29+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+      max_items: 50
+      max_age_days: 3
+    - id: "t1-zendaya"
+      name: "Tier1: Zendaya"
+      url: "https://news.google.com/rss/search?q=intitle%3A%22Zendaya%22+%28site%3Apeople.com+OR+site%3Avariety.com+OR+site%3Ahollywoodreporter.com+OR+site%3Adeadline.com+OR+site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abbc.com+OR+site%3Abbc.co.uk%29+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+      max_items: 50
+      max_age_days: 3
+    - id: "t1-kim-kardashian"
+      name: "Tier1: Kim Kardashian"
+      url: "https://news.google.com/rss/search?q=intitle%3A%22Kim+Kardashian%22+%28site%3Apeople.com+OR+site%3Avariety.com+OR+site%3Ahollywoodreporter.com+OR+site%3Adeadline.com+OR+site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abbc.com+OR+site%3Abbc.co.uk%29+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+      max_items: 50
+      max_age_days: 3
+    - id: "t1-kylie-jenner"
+      name: "Tier1: Kylie Jenner"
+      url: "https://news.google.com/rss/search?q=intitle%3A%22Kylie+Jenner%22+%28site%3Apeople.com+OR+site%3Avariety.com+OR+site%3Ahollywoodreporter.com+OR+site%3Adeadline.com+OR+site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abbc.com+OR+site%3Abbc.co.uk%29+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+      max_items: 50
+      max_age_days: 3
+    - id: "t1-rihanna"
+      name: "Tier1: Rihanna"
+      url: "https://news.google.com/rss/search?q=intitle%3A%22Rihanna%22+%28site%3Apeople.com+OR+site%3Avariety.com+OR+site%3Ahollywoodreporter.com+OR+site%3Adeadline.com+OR+site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abbc.com+OR+site%3Abbc.co.uk%29+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+      max_items: 50
+      max_age_days: 3
+    - id: "t1-beyonce"
+      name: "Tier1: Beyonce"
+      url: "https://news.google.com/rss/search?q=intitle%3A%22Beyonce%22+%28site%3Apeople.com+OR+site%3Avariety.com+OR+site%3Ahollywoodreporter.com+OR+site%3Adeadline.com+OR+site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abbc.com+OR+site%3Abbc.co.uk%29+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+      max_items: 50
+      max_age_days: 3
+    - id: "t1-ariana-grande"
+      name: "Tier1: Ariana Grande"
+      url: "https://news.google.com/rss/search?q=intitle%3A%22Ariana+Grande%22+%28site%3Apeople.com+OR+site%3Avariety.com+OR+site%3Ahollywoodreporter.com+OR+site%3Adeadline.com+OR+site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abbc.com+OR+site%3Abbc.co.uk%29+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+      max_items: 50
+      max_age_days: 3
+    - id: "t1-sabrina-carpenter"
+      name: "Tier1: Sabrina Carpenter"
+      url: "https://news.google.com/rss/search?q=intitle%3A%22Sabrina+Carpenter%22+%28site%3Apeople.com+OR+site%3Avariety.com+OR+site%3Ahollywoodreporter.com+OR+site%3Adeadline.com+OR+site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abbc.com+OR+site%3Abbc.co.uk%29+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+      max_items: 50
+      max_age_days: 3
+    - id: "t1-margot-robbie"
+      name: "Tier1: Margot Robbie"
+      url: "https://news.google.com/rss/search?q=intitle%3A%22Margot+Robbie%22+%28site%3Apeople.com+OR+site%3Avariety.com+OR+site%3Ahollywoodreporter.com+OR+site%3Adeadline.com+OR+site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abbc.com+OR+site%3Abbc.co.uk%29+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+      max_items: 50
+      max_age_days: 3
+    - id: "t1-jennifer-lopez"
+      name: "Tier1: Jennifer Lopez"
+      url: "https://news.google.com/rss/search?q=intitle%3A%22Jennifer+Lopez%22+%28site%3Apeople.com+OR+site%3Avariety.com+OR+site%3Ahollywoodreporter.com+OR+site%3Adeadline.com+OR+site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abbc.com+OR+site%3Abbc.co.uk%29+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+      max_items: 50
+      max_age_days: 3
+    - id: "t1-blake-lively"
+      name: "Tier1: Blake Lively"
+      url: "https://news.google.com/rss/search?q=intitle%3A%22Blake+Lively%22+%28site%3Apeople.com+OR+site%3Avariety.com+OR+site%3Ahollywoodreporter.com+OR+site%3Adeadline.com+OR+site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abbc.com+OR+site%3Abbc.co.uk%29+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+      max_items: 50
+      max_age_days: 3
+    - id: "t1-hailey-bieber"
+      name: "Tier1: Hailey Bieber"
+      url: "https://news.google.com/rss/search?q=intitle%3A%22Hailey+Bieber%22+%28site%3Apeople.com+OR+site%3Avariety.com+OR+site%3Ahollywoodreporter.com+OR+site%3Adeadline.com+OR+site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abbc.com+OR+site%3Abbc.co.uk%29+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+      max_items: 50
+      max_age_days: 3
+    - id: "t1-sydney-sweeney"
+      name: "Tier1: Sydney Sweeney"
+      url: "https://news.google.com/rss/search?q=intitle%3A%22Sydney+Sweeney%22+%28site%3Apeople.com+OR+site%3Avariety.com+OR+site%3Ahollywoodreporter.com+OR+site%3Adeadline.com+OR+site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abbc.com+OR+site%3Abbc.co.uk%29+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+      max_items: 50
+      max_age_days: 3
+    - id: "t1-timothee-chalamet"
+      name: "Tier1: Timothee Chalamet"
+      url: "https://news.google.com/rss/search?q=intitle%3A%22Timothee+Chalamet%22+%28site%3Apeople.com+OR+site%3Avariety.com+OR+site%3Ahollywoodreporter.com+OR+site%3Adeadline.com+OR+site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abbc.com+OR+site%3Abbc.co.uk%29+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+      max_items: 50
+      max_age_days: 3
+    - id: "t1-dua-lipa"
+      name: "Tier1: Dua Lipa"
+      url: "https://news.google.com/rss/search?q=intitle%3A%22Dua+Lipa%22+%28site%3Apeople.com+OR+site%3Avariety.com+OR+site%3Ahollywoodreporter.com+OR+site%3Adeadline.com+OR+site%3Areuters.com+OR+site%3Aapnews.com+OR+site%3Abbc.com+OR+site%3Abbc.co.uk%29+when%3A3d&hl=en-US&gl=US&ceid=US:en"
+      max_items: 50
+      max_age_days: 3
+
 report:
   mode: "daily"                       # daily = all items of the day (Bangkok date)
   display_mode: "keyword"

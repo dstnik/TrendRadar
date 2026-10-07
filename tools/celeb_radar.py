@@ -83,7 +83,7 @@ def parse_time(s):
 
 def split_outlet(title, feed_name):
     """Google News titles look like 'Headline - Outlet'. Others: outlet = feed name."""
-    if feed_name.startswith("GNews") or "(via GNews)" in feed_name or feed_name == "People":
+    if feed_name.startswith(("GNews", "Tier1")) or "(via GNews)" in feed_name or feed_name == "People":
         if " - " in title:
             head, outlet = title.rsplit(" - ", 1)
             return head.strip(), outlet.strip()
